@@ -28,8 +28,8 @@ Wikipack fonctionne avec les gestionnaires de userscripts **Tampermonkey** ou **
 
 | Gestionnaire         | Chrome                                                                                               | Firefox                                                              |
 | -------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| **Tampermonkey*  | —                                                                                                    | [Installer](https://addons.mozilla.org/firefox/addon/tampermonkey/)  |
-| **Violentmonkey* | [Installer](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag) | [Installer](https://addons.mozilla.org/firefox/addon/violentmonkey/) |
+| *Tampermonkey*  | —                                                                                                    | [Installer](https://addons.mozilla.org/firefox/addon/tampermonkey/)  |
+| *Violentmonkey* | [Installer](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag) | [Installer](https://addons.mozilla.org/firefox/addon/violentmonkey/) |
 
 Une fois votre gestionnaire installé, ajoutez simplement le script Wikipack
 
