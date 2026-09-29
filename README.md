@@ -75,21 +75,6 @@ La lecture automatique du son peut également être bloquée par certains naviga
 
 ---
 
-## 🖥️ HUD
-
-Wikipack intègre un **HUD (Head-Up Display)** permettant de suivre l'automatisation directement depuis WikiMasters
-
-Il permet notamment de consulter :
-
-* ⚙️ l'état de l'auto-ouverture
-* ⚡ le mode de vitesse utilisé
-* 📊 les statistiques du script
-* 📦 l'état du traitement des paquets
-
-La position du HUD peut être personnalisée et est automatiquement sauvegardée
-
----
-
 ## 💾 Paramètres
 
 Les paramètres de Wikipack sont automatiquement sauvegardés dans le navigateur
