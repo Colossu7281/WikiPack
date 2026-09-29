@@ -75,21 +75,6 @@ La lecture automatique du son peut également être bloquée par certains naviga
 
 ---
 
-## 💾 Paramètres
-
-Les paramètres de Wikipack sont automatiquement sauvegardés dans le navigateur
-
-Cela permet notamment de conserver :
-
-* l'état de l'auto-ouverture
-* le mode de vitesse sélectionné
-* la position du HUD
-* les statistiques du scrip
-
-Vous n'avez donc pas besoin de reconfigurer le script à chaque utilisation
-
----
-
 ## 🌐 Compatibilité
 
 | Environnement        | Support      |
