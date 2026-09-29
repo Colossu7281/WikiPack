@@ -31,52 +31,6 @@ Wikipack fonctionne avec **Tampermonkey** et **Violentmonkey**.
 
 ---
 
-## 🎮 Fonctionnement
-
-Une fois activé, Wikipack automatise le cycle suivant :
-
-```text
-📦 Paquet disponible
-       │
-       ▼
-📦 Ouverture du paquet
-       │
-       ▼
-🃏 Révélation des cartes
-       │
-       ▼
-✅ Passage à la suite
-       │
-       ▼
-🔄 Paquet suivant
-       │
-       └───────────────►
-```
-
-L'automatisation de l'ouverture est active **uniquement sur la page Paquets**, afin d'éviter toute interaction indésirable sur les autres pages de WikiMasters.
-
----
-
-## 🎛️ HUD
-
-Wikipack dispose d'un **HUD compact et déplaçable** permettant de contrôler le script directement depuis WikiMasters.
-
-| Fonction              | Description                                          |
-| --------------------- | ---------------------------------------------------- |
-| 🟢 **Auto-ouverture** | Active ou désactive l'automatisation                 |
-| ⚡ **Vitesse**         | Sélectionne le mode Normal ou Rapide                 |
-| 📦 **Paquets**        | Affiche le nombre de paquets disponibles             |
-| ⏱️ **Timer**          | Affiche le temps restant avant le prochain paquet    |
-| 📊 **Statistiques**   | Affiche les paquets ouverts et les cartes parcourues |
-
-### 🖱️ HUD déplaçable
-
-Le HUD peut être déplacé librement sur la page.
-
-Sa position est automatiquement sauvegardée afin de conserver votre emplacement préféré lors de vos prochaines visites.
-
----
-
 ## ⚡ Modes de vitesse
 
 Wikipack propose deux modes d'automatisation.
