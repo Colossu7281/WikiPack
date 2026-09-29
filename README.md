@@ -14,14 +14,11 @@ Il prend en charge automatiquement l'ouverture des paquets, la révélation des 
 
 ## ✨ Fonctionnalités
 
-* 📦 **Ouverture automatique** des paquets
-* 🃏 **Révélation automatique** des cartes
-* ⏩ **Passage automatique** au paquet suivant
+* 🃏 **Ouverture automatique** des paquets
 * ⚡ Deux modes de vitesse : **Normal** et **Rapide**
 * 🖥️ **HUD intégré** pour suivre l'état de l'automatisation
 * 🔔 **Notifications navigateur** lorsqu'un paquet devient disponible
 * 🔊 **Alerte sonore** lorsqu'un nouveau paquet est disponible
-* 💾 **Sauvegarde automatique** des paramètres
 
 ---
 
