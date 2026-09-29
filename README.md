@@ -1,142 +1,230 @@
-<div align="center">
-📦 Wikipack
-Userscript d'automatisation des paquets pour WikiMasters
+# 📦 Wikipack — Auto ouverture de paquets
 
+> **Automatisez l'ouverture de vos paquets sur WikiMasters.**
 
+Wikipack est un **userscript** conçu pour automatiser l'ouverture des paquets sur **WikiMasters**.
 
+Il gère automatiquement l'ouverture des paquets, la révélation des cartes et le passage au paquet suivant, tout en proposant un **HUD intégré** permettant de suivre et contrôler l'automatisation en temps réel.
 
+![Version](https://img.shields.io/badge/version-1.0.1-blue)
+![Plateformes](https://img.shields.io/badge/platform-Chrome%20%7C%20Firefox-orange)
+![Userscript](https://img.shields.io/badge/type-Userscript-green)
+![Licence](https://img.shields.io/badge/license-MIT-lightgrey)
 
+---
 
+## ✨ Fonctionnalités
 
+* 📦 **Ouverture automatique** des paquets
+* 🃏 **Révélation automatique** des cartes
+* 🔄 **Passage automatique** au paquet suivant
+* ⚡ Deux modes de vitesse : **Normal** et **Rapide**
+* ⏱️ **Suivi du timer** avant le prochain paquet
+* 🎛️ **HUD intégré** avec contrôle et statistiques
+* 🖱️ **HUD déplaçable** avec mémorisation de sa position
+* 💾 **Sauvegarde automatique** des paramètres
+* 🔔 **Notifications navigateur**
+* 🔊 **Alerte sonore** lorsqu'un paquet devient disponible
+* 🌐 Compatible avec la navigation sur **WikiMasters**
 
-Automatisez l'ouverture de vos paquets et laissez Wikipack s'occuper du reste.
+---
 
-✨ Fonctionnalités ·
-🚀 Installation ·
-🎮 Utilisation ·
-⚙️ Configuration
+## 🚀 Installation
 
-</div>
-✨ Fonctionnalités
-Fonction	Description
-📦	Ouverture automatique des paquets
-🃏	Révélation automatique des cartes
-⚡	Modes Normal et Rapide
-⏱️	Suivi du timer des paquets
-🔔	Notifications navigateur + alerte sonore
-🎛️	HUD avec statistiques et contrôles
-💾	Sauvegarde automatique des paramètres
-🚀 Installation
-1. Installer Tampermonkey ou Violentmonkey
+### 1. Installer un gestionnaire de userscripts
 
-Choisissez votre navigateur :
+Wikipack fonctionne avec **Tampermonkey** et **Violentmonkey**.
 
-Gestionnaire	🌐 Chrome	🦊 Firefox
-🐒 Tampermonkey	Installer →
-	Installer →
+| Gestionnaire         | Chrome                                                                                                                      | Firefox                                                                                     |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| 🐒 **Tampermonkey**  | [Installer](https://www.tampermonkey.net/?utm_source=chatgpt.com)                                                           | [Installer](https://addons.mozilla.org/firefox/addon/tampermonkey/?utm_source=chatgpt.com)  |
+| 🐵 **Violentmonkey** | [Installer](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?utm_source=chatgpt.com) | [Installer](https://addons.mozilla.org/firefox/addon/violentmonkey/?utm_source=chatgpt.com) |
 
-🐵 Violentmonkey	Installer →
-	Installer →
-2. Installer Wikipack
+### 2. Installer Wikipack
 
-Une fois votre gestionnaire installé :
+1. Installez **Tampermonkey** ou **Violentmonkey**.
+2. Ouvrez le gestionnaire de userscripts.
+3. Créez un **nouveau script**.
+4. Copiez le contenu de `Wikipack.user.js`.
+5. Enregistrez le script.
+6. Rendez-vous sur [WikiMasters](https://wiki-masters.com/?utm_source=chatgpt.com).
+7. Ouvrez la page **Paquets**.
 
-Téléchargez Wikipack.user.js.
+🎉 **Wikipack démarre automatiquement !**
 
-Ouvrez Tampermonkey ou Violentmonkey.
+---
 
-Créez un nouveau userscript.
+## 🎮 Fonctionnement
 
-Copiez le contenu de Wikipack.user.js.
+Une fois activé, Wikipack automatise le cycle suivant :
 
-Enregistrez le script.
-
-Ouvrez WikiMasters
-.
-
-💡 Si votre navigateur le permet, vous pouvez également ouvrir directement le fichier .user.js pour lancer son installation.
-
-🎮 Utilisation
-
-Une fois installé, Wikipack fonctionne automatiquement sur :
-
-https://wiki-masters.com/*
-
-
-Le processus est entièrement automatisé :
-
+```text
 📦 Paquet disponible
-        │
-        ▼
-📦 Ouverture
-        │
-        ▼
+       │
+       ▼
+📦 Ouverture du paquet
+       │
+       ▼
 🃏 Révélation des cartes
-        │
-        ▼
-✅ Continuer
-        │
-        ▼
-🔄 Recommencer
+       │
+       ▼
+✅ Passage à la suite
+       │
+       ▼
+🔄 Paquet suivant
+       │
+       └───────────────►
+```
 
-🎛️ HUD
+L'automatisation de l'ouverture est active **uniquement sur la page Paquets**, afin d'éviter toute interaction indésirable sur les autres pages de WikiMasters.
 
-Le HUD permet de contrôler et surveiller Wikipack directement depuis WikiMasters.
+---
 
-Contrôle	Fonction
-🟢 Auto-ouverture	Active ou désactive l'automatisation
-⚡ Vitesse	Choisit le mode Normal ou Rapide
-📦 Paquets	Affiche les paquets disponibles
-⏱️ Timer	Affiche le temps avant le prochain paquet
-📊 Statistiques	Affiche les paquets ouverts et les cartes parcourues
+## 🎛️ HUD
 
-Le HUD est déplaçable et sa position est sauvegardée automatiquement.
+Wikipack dispose d'un **HUD compact et déplaçable** permettant de contrôler le script directement depuis WikiMasters.
 
-⚡ Vitesses
-Mode	📦 Ouverture	🃏 Carte suivante	✅ Continuer
-🟢 Normal	800 ms	250 ms	600 ms
-🔴 Rapide	300 ms	80 ms	200 ms
-🔔 Notifications
+| Fonction              | Description                                          |
+| --------------------- | ---------------------------------------------------- |
+| 🟢 **Auto-ouverture** | Active ou désactive l'automatisation                 |
+| ⚡ **Vitesse**         | Sélectionne le mode Normal ou Rapide                 |
+| 📦 **Paquets**        | Affiche le nombre de paquets disponibles             |
+| ⏱️ **Timer**          | Affiche le temps restant avant le prochain paquet    |
+| 📊 **Statistiques**   | Affiche les paquets ouverts et les cartes parcourues |
 
-Lorsqu'un nouveau paquet devient disponible, Wikipack peut :
+### 🖱️ HUD déplaçable
 
-🔊 jouer une alerte sonore ;
+Le HUD peut être déplacé librement sur la page.
 
-🔔 afficher une notification navigateur.
+Sa position est automatiquement sauvegardée afin de conserver votre emplacement préféré lors de vos prochaines visites.
 
-<details> <summary>ℹ️ À propos des notifications</summary>
+---
 
-Le navigateur peut demander une autorisation avant d'afficher les notifications.
+## ⚡ Modes de vitesse
 
-La lecture automatique du son peut également être bloquée par le navigateur jusqu'à une première interaction avec la page.
+Wikipack propose deux modes d'automatisation.
 
-</details>
-📁 Structure du projet
-Wikipack/
-├── 📜 Wikipack.user.js
-└── 📖 README.md
+| Mode          | 📦 Ouverture | 🃏 Carte | ✅ Continuer |
+| ------------- | -----------: | -------: | ----------: |
+| 🟢 **Normal** |       800 ms |   250 ms |      600 ms |
+| 🔴 **Rapide** |       300 ms |    80 ms |      200 ms |
 
-⚠️ Avertissement
+### 🟢 Normal
 
-Wikipack dépend de la structure actuelle de WikiMasters.
+Le mode Normal utilise des délais plus importants afin de laisser davantage de temps à l'interface pour effectuer chaque action.
 
-Une modification de l'interface du site peut entraîner des dysfonctionnements et nécessiter une mise à jour du script.
+### 🔴 Rapide
 
-Utilisez Wikipack conformément aux règles et conditions d'utilisation de WikiMasters.
+Le mode Rapide réduit les délais entre les actions pour permettre un traitement plus rapide des paquets.
 
-📄 Informations
-	
-Nom	Wikipack
-Version	1.0.1
-Type	Userscript
-Navigateurs	Chrome · Firefox
-Gestionnaires	Tampermonkey · Violentmonkey
-Site	wiki-masters.com
-<div align="center">
-📦 Wikipack
+> ⚠️ Le mode Rapide dépend davantage de la réactivité de WikiMasters. Si l'interface évolue ou réagit lentement, le mode Normal peut être préférable.
 
-Automatiser les paquets, simplement.
+---
 
-⬆️ Retour en haut
+## 🔔 Notifications
 
-</div>
+Wikipack peut vous avertir lorsqu'un nouveau paquet devient disponible.
+
+Deux types de notifications sont disponibles :
+
+* 🔊 **Alerte sonore**
+* 🔔 **Notification navigateur**
+
+### 🔐 Autorisations
+
+Le navigateur peut demander une autorisation pour afficher les notifications.
+
+De même, certains navigateurs peuvent bloquer la lecture automatique du son jusqu'à ce qu'une première interaction ait eu lieu avec la page.
+
+---
+
+## 💾 Paramètres
+
+Les paramètres de Wikipack sont automatiquement sauvegardés dans le navigateur.
+
+Cela permet notamment de conserver :
+
+* ⚙️ l'état de l'auto-ouverture ;
+* ⚡ le mode de vitesse sélectionné ;
+* 🖱️ la position du HUD ;
+* 📊 les statistiques du script.
+
+---
+
+## 🌐 Compatibilité
+
+| Environnement    | Support      |
+| ---------------- | ------------ |
+| 🦊 Firefox       | ✅            |
+| 🌐 Chrome        | ✅            |
+| 🐒 Tampermonkey  | ✅            |
+| 🐵 Violentmonkey | ✅            |
+| 📱 Mobile        | ⚠️ Non testé |
+
+> La compatibilité dépend également de la version actuelle de WikiMasters et de son interface.
+
+---
+
+## ⚠️ Avertissement
+
+Wikipack dépend de la structure et du fonctionnement actuels de **WikiMasters**.
+
+Si WikiMasters modifie son interface, ses boutons, ses classes CSS ou son fonctionnement interne, certaines fonctionnalités de Wikipack peuvent cesser de fonctionner et nécessiter une mise à jour.
+
+> 📌 **Wikipack n'est pas affilié officiellement à WikiMasters**, sauf indication contraire.
+
+Utilisez le script conformément aux **règles et conditions d'utilisation de WikiMasters**.
+
+---
+
+## 🐛 Signaler un problème
+
+Vous avez rencontré un bug ou un comportement inattendu ?
+
+Avant de créer une issue, vérifiez que :
+
+1. Vous utilisez la dernière version de Wikipack.
+2. Votre gestionnaire de userscripts est à jour.
+3. Le problème est toujours présent après avoir actualisé WikiMasters.
+
+Pour signaler un problème, ouvrez une **Issue GitHub** en indiquant si possible :
+
+* 🌐 votre navigateur ;
+* 🐒 votre gestionnaire de userscripts ;
+* 📦 la version de Wikipack ;
+* 📝 une description du problème ;
+* 📸 une capture d'écran ou les erreurs de la console si nécessaire.
+
+---
+
+## 🤝 Contribution
+
+Les contributions, suggestions et corrections sont les bienvenues !
+
+Si vous souhaitez améliorer Wikipack :
+
+1. 🍴 Forkez le dépôt.
+2. 🌿 Créez une nouvelle branche.
+3. ✏️ Effectuez vos modifications.
+4. 🧪 Testez le script sur WikiMasters.
+5. 📤 Ouvrez une Pull Request.
+
+---
+
+## 📄 Informations
+
+|                   |                                      |
+| ----------------- | ------------------------------------ |
+| **Nom**           | Wikipack — Auto ouverture de paquets |
+| **Version**       | `1.0.1`                              |
+| **Type**          | Userscript                           |
+| **Plateformes**   | Chrome · Firefox                     |
+| **Gestionnaires** | Tampermonkey · Violentmonkey         |
+
+---
+
+## ❤️ Crédits
+
+<p align="center">
+  Made with ❤️ for WikiMasters
+</p>
