@@ -177,26 +177,6 @@ Utilisez le script conformément aux **règles et conditions d'utilisation de Wi
 
 ---
 
-## 🐛 Signaler un problème
-
-Vous avez rencontré un bug ou un comportement inattendu ?
-
-Avant de créer une issue, vérifiez que :
-
-1. Vous utilisez la dernière version de Wikipack.
-2. Votre gestionnaire de userscripts est à jour.
-3. Le problème est toujours présent après avoir actualisé WikiMasters.
-
-Pour signaler un problème, ouvrez une **Issue GitHub** en indiquant si possible :
-
-* 🌐 votre navigateur ;
-* 🐒 votre gestionnaire de userscripts ;
-* 📦 la version de Wikipack ;
-* 📝 une description du problème ;
-* 📸 une capture d'écran ou les erreurs de la console si nécessaire.
-
----
-
 ## 🤝 Contribution
 
 Les contributions, suggestions et corrections sont les bienvenues !
@@ -208,18 +188,6 @@ Si vous souhaitez améliorer Wikipack :
 3. ✏️ Effectuez vos modifications.
 4. 🧪 Testez le script sur WikiMasters.
 5. 📤 Ouvrez une Pull Request.
-
----
-
-## 📄 Informations
-
-|                   |                                      |
-| ----------------- | ------------------------------------ |
-| **Nom**           | Wikipack — Auto ouverture de paquets |
-| **Version**       | `1.0.1`                              |
-| **Type**          | Userscript                           |
-| **Plateformes**   | Chrome · Firefox                     |
-| **Gestionnaires** | Tampermonkey · Violentmonkey         |
 
 ---
 
