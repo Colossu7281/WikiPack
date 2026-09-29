@@ -14,22 +14,22 @@ Il prend en charge automatiquement l'ouverture des paquets, la révélation des 
 
 ## ✨ Fonctionnalités
 
-* 🃏 **Ouverture automatique** des paquets
-* ⚡ Deux modes de vitesse : **Normal** et **Rapide**
-* 🖥️ **HUD intégré** pour suivre l'état de l'automatisation
-* 🔔 **Notifications navigateur** lorsqu'un paquet devient disponible
-* 🔊 **Alerte sonore** lorsqu'un nouveau paquet est disponible
+* **Ouverture automatique** des paquets
+* Deux modes de vitesse : **Normal** et **Rapide**
+* **HUD intégré** pour suivre l'état de l'automatisation
+* **Notifications navigateur** lorsqu'un paquet devient disponible
+* **Alerte sonore** lorsqu'un nouveau paquet est disponible
 
 ---
 
 ## 🛠️ Installation
 
-Wikipack fonctionne avec les gestionnaires de userscripts **Tampermonkey** et **Violentmonkey**
+Wikipack fonctionne avec les gestionnaires de userscripts **Tampermonkey** ou **Violentmonkey**
 
 | Gestionnaire         | Chrome                                                                                               | Firefox                                                              |
 | -------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 🐒 **Tampermonkey**  | —                                                                                                    | [Installer](https://addons.mozilla.org/firefox/addon/tampermonkey/)  |
-| 🐵 **Violentmonkey** | [Installer](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag) | [Installer](https://addons.mozilla.org/firefox/addon/violentmonkey/) |
+| **Tampermonkey*  | —                                                                                                    | [Installer](https://addons.mozilla.org/firefox/addon/tampermonkey/)  |
+| **Violentmonkey* | [Installer](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag) | [Installer](https://addons.mozilla.org/firefox/addon/violentmonkey/) |
 
 Une fois votre gestionnaire installé, ajoutez simplement le script Wikipack
 
@@ -64,8 +64,8 @@ Wikipack peut vous avertir lorsqu'un nouveau paquet devient disponible
 
 Deux types de notifications sont disponibles :
 
-* 🔊 **Alerte sonore**
-* 🔔 **Notification navigateur**
+* **Alerte sonore**
+* **Notification navigateur**
 
 ### 🔐 Autorisations
 
@@ -81,10 +81,10 @@ Les paramètres de Wikipack sont automatiquement sauvegardés dans le navigateur
 
 Cela permet notamment de conserver :
 
-* ⚙️ l'état de l'auto-ouverture
-* ⚡ le mode de vitesse sélectionné
-* 🖥️ la position du HUD
-* 📊 les statistiques du scrip
+* l'état de l'auto-ouverture
+* le mode de vitesse sélectionné
+* la position du HUD
+* les statistiques du scrip
 
 Vous n'avez donc pas besoin de reconfigurer le script à chaque utilisation
 
@@ -94,10 +94,10 @@ Vous n'avez donc pas besoin de reconfigurer le script à chaque utilisation
 
 | Environnement        | Support      |
 | -------------------- | ------------ |
-| 🦊 **Firefox**, *Tampermonkey* | ✅ Testé |
-| 🦊 **Firefox**, *Violentmonkey*| ✅ Testé |
-| 🌐 **Chrome**, *Violentmonkey* | ✅ Testé |
-| 📱 **Mobile**        | ⚠️ Non testé |
+| **Firefox**, *Tampermonkey* | ✅ Testé |
+| **Firefox**, *Violentmonkey*| ✅ Testé |
+| **Chrome**, *Violentmonkey* | ✅ Testé |
+| **Mobile**        | ⚠️ Non testé |
 
 > La compatibilité peut également dépendre de la version actuelle de WikiMasters et des éventuelles modifications apportées à son interface
 
