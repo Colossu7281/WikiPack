@@ -1,68 +1,108 @@
 📦 Wikipack — Auto ouverture de paquets
 
-Userscript permettant d'automatiser l'ouverture des paquets sur WikiMasters.
+Userscript pour automatiser l'ouverture des paquets sur WikiMasters.
+
+Automatise l'ouverture des paquets, la révélation des cartes et le passage au paquet suivant, avec un HUD intégré pour suivre l'état du script.
 
 ✨ Fonctionnalités
 
 📦 Ouverture automatique des paquets
 
-⚡ Modes Normal et Rapide
+🃏 Révélation automatique des cartes
+
+⚡ Deux modes : Normal et Rapide
 
 ⏱️ Suivi du timer des paquets
 
-🔔 Notifications + alerte sonore
+🔔 Notifications navigateur et alerte sonore
 
-🎛️ HUD avec statistiques et contrôle de l'automatisation
+🎛️ HUD avec contrôle et statistiques
 
-📥 Installation
+💾 Sauvegarde automatique des paramètres
 
-Installez un gestionnaire de userscripts :
+🌐 Compatible avec la navigation sur WikiMasters
 
-Gestionnaire	🌐 Chrome	🦊 Firefox
-Tampermonkey	{"fallbackMarkdown":"Installer
-","reference":{"matched_text":"","prefix":null,"start_idx":770,"end_idx":815,"safe_urls":["https://www.tampermonkey.net/","https://www.tampermonkey.net/?utm_source=chatgpt.com"],"refs":[{"turn_index":0,"ref_type":"search","ref_index":9}],"alt":"Installer
-","prompt_text":null,"type":"url","layout":null,"logo":null,"title":"Installer","item":{"title":"Home	Tampermonkey","url":"https://www.tampermonkey.net/?utm_source=chatgpt.com","attribution":"tampermonkey.net","pub_date":null,"snippet":"","attribution_segments":null,"supporting_websites":[],"refs":[{"turn_index":0,"ref_type":"search","ref_index":9}],"hue":null,"attributions":null}},"showLoginRequiredCard":false}
-Violentmonkey	{"fallbackMarkdown":"Installer
-","reference":{"matched_text":"","prefix":null,"start_idx":872,"end_idx":900,"safe_urls":["https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=fr","https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=fr&utm_source=chatgpt.com"],"refs":[{"turn_index":0,"ref_type":"search","ref_index":0}],"alt":"Installer
-","prompt_text":null,"type":"url","layout":null,"logo":null,"title":"Installer","item":{"title":"Violentmonkey - Chrome Web Store","url":"https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=fr&utm_source=chatgpt.com","attribution":"chromewebstore.google.com","pub_date":1787011200,"snippet":"","attribution_segments":null,"supporting_websites":[],"refs":[{"turn_index":0,"ref_type":"search","ref_index":0}],"hue":null,"attributions":null}},"showLoginRequiredCard":false}	{"fallbackMarkdown":"Installer
-","reference":{"matched_text":"","prefix":null,"start_idx":903,"end_idx":931,"safe_urls":["https://addons.mozilla.org/fr/firefox/addon/violentmonkey/","https://addons.mozilla.org/fr/firefox/addon/violentmonkey/?utm_source=chatgpt.com"],"refs":[{"turn_index":0,"ref_type":"search","ref_index":6}],"alt":"Installer
-","prompt_text":null,"type":"url","layout":null,"logo":null,"title":"Installer","item":{"title":"Violentmonkey – Adoptez cette extension pour 🦊 Firefox (fr)","url":"https://addons.mozilla.org/fr/firefox/addon/violentmonkey/?utm_source=chatgpt.com","attribution":"addons.mozilla.org","pub_date":1788652800,"snippet":"","attribution_segments":null,"supporting_websites":[],"refs":[{"turn_index":0,"ref_type":"search","ref_index":6}],"hue":null,"attributions":null}},"showLoginRequiredCard":false}
+🚀 Installation
+1. Installer un gestionnaire de userscripts
+	Chrome	Firefox
+🐒 Tampermonkey	Installer ↗
+	Installer ↗
 
-Puis :
+🐵 Violentmonkey	Installer ↗
+	Installer ↗
+2. Installer Wikipack
+
+Ouvrir Tampermonkey ou Violentmonkey.
 
 Créer un nouveau userscript.
 
-Coller le contenu du script.
+Copier le contenu de Wikipack.user.js.
 
 Enregistrer.
 
-Ouvrir WikiMasters.
+Ouvrir WikiMasters
+.
 
-Le script fonctionne automatiquement sur :
+Le script se lance automatiquement.
 
-https://wiki-masters.com/*
+🎮 Fonctionnement
 
-🎛️ Utilisation
+Une fois activé, Wikipack effectue automatiquement le cycle suivant :
 
-Le HUD permet de :
+📦 Paquet disponible
+       ↓
+📦 Ouverture
+       ↓
+🃏 Révélation des cartes
+       ↓
+✅ Continuer
+       ↓
+🔄 Paquet suivant
 
-activer/désactiver l'auto-ouverture ;
 
-choisir la vitesse ;
+Le script n'effectue l'ouverture automatique que sur la page Paquets.
 
-voir les paquets disponibles ;
+🎛️ HUD
 
-voir le temps avant le prochain paquet ;
+Le HUD permet de contrôler rapidement le script :
 
-consulter les statistiques.
+Fonction	Description
+🟢 Auto-ouverture	Active ou désactive l'automatisation
+⚡ Vitesse	Choix entre Normal et Rapide
+📦 Paquets	Nombre de paquets disponibles
+⏱️ Timer	Temps avant le prochain paquet
+📊 Statistiques	Paquets ouverts et cartes parcourues
 
-Le script effectue automatiquement :
+Le HUD est également déplaçable et mémorise sa position.
 
-📦 Ouvrir → 🃏 Révéler → ✅ Continuer → 🔄 Recommencer
+🔔 Notifications
 
-⚠️ Note
+Lorsqu'un nouveau paquet devient disponible, Wikipack peut :
 
-Le script dépend de la structure actuelle de WikiMasters. Une modification de l'interface peut nécessiter une mise à jour du userscript.
+🔊 jouer une alerte sonore ;
 
+🔔 afficher une notification navigateur.
+
+ℹ️ Le navigateur peut demander une autorisation pour les notifications et bloquer le son jusqu'à une première interaction avec la page.
+
+⚡ Modes de vitesse
+Mode	Ouverture	Carte	Continuer
+🟢 Normal	800 ms	250 ms	600 ms
+🔴 Rapide	300 ms	80 ms	200 ms
+⚠️ Avertissement
+
+Wikipack dépend de la structure actuelle du site WikiMasters.
+
+Si WikiMasters modifie son interface, ses boutons ou son fonctionnement interne, certaines fonctionnalités peuvent nécessiter une mise à jour du script.
+
+Utilisez le script conformément aux règles et conditions d'utilisation de WikiMasters.
+
+📄 Informations
+
+Nom : Wikipack — Auto ouverture de paquets
 Version : 1.0.1
-:::{"fallbackMarkdown":"","reference":{"matched_text":" ","prefix":null,"start_idx":1619,"end_idx":1619,"safe_urls":[],"refs":[],"alt":"","prompt_text":null,"type":"sources_footnote","sources":[{"title":"Home | Tampermonkey","url":"https://www.tampermonkey.net/?utm_source=chatgpt.com","attribution":"Tampermonkey"}],"has_images":false},"showLoginRequiredCard":false}
+Type : Userscript
+Plateformes : Chrome · Firefox
+Gestionnaires : Tampermonkey · Violentmonkey
+
+<p align="center"> Made with ❤️ for WikiMasters </p>
