@@ -15,17 +15,10 @@ Il gère automatiquement l'ouverture des paquets, la révélation des cartes et 
 
 ## ✨ Fonctionnalités
 
-* 📦 **Ouverture automatique** des paquets
-* 🃏 **Révélation automatique** des cartes
-* 🔄 **Passage automatique** au paquet suivant
+* 🃏 **Ouverture automatique** des paquets
 * ⚡ Deux modes de vitesse : **Normal** et **Rapide**
-* ⏱️ **Suivi du timer** avant le prochain paquet
-* 🎛️ **HUD intégré** avec contrôle et statistiques
-* 🖱️ **HUD déplaçable** avec mémorisation de sa position
-* 💾 **Sauvegarde automatique** des paramètres
 * 🔔 **Notifications navigateur**
 * 🔊 **Alerte sonore** lorsqu'un paquet devient disponible
-* 🌐 Compatible avec la navigation sur **WikiMasters**
 
 ---
 
@@ -37,7 +30,7 @@ Wikipack fonctionne avec **Tampermonkey** et **Violentmonkey**.
 
 | Gestionnaire         | Chrome                                                                                                                      | Firefox                                                                                     |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| 🐒 **Tampermonkey**  | [Installer](https://www.tampermonkey.net/?utm_source=chatgpt.com)                                                           | [Installer](https://addons.mozilla.org/firefox/addon/tampermonkey/?utm_source=chatgpt.com)  |
+| 🐒 **Tampermonkey**  | -                                                          | [Installer](https://addons.mozilla.org/firefox/addon/tampermonkey/?utm_source=chatgpt.com)  |
 | 🐵 **Violentmonkey** | [Installer](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?utm_source=chatgpt.com) | [Installer](https://addons.mozilla.org/firefox/addon/violentmonkey/?utm_source=chatgpt.com) |
 
 ### 2. Installer Wikipack
