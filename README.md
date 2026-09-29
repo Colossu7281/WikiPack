@@ -94,9 +94,9 @@ Vous n'avez donc pas besoin de reconfigurer le script à chaque utilisation
 
 | Environnement        | Support      |
 | -------------------- | ------------ |
-| 🦊 **Firefox**, *Tampermonkey* | ✅            |
-| 🦊 **Firefox**, *Violentmonkey*| ✅            |
-| 🌐 **Chrome**, *Violentmonkey* | ✅            |
+| 🦊 **Firefox**, *Tampermonkey* | ✅ Testé |
+| 🦊 **Firefox**, *Violentmonkey*| ✅ Testé |
+| 🌐 **Chrome**, *Violentmonkey* | ✅ Testé |
 | 📱 **Mobile**        | ⚠️ Non testé |
 
 > La compatibilité peut également dépendre de la version actuelle de WikiMasters et des éventuelles modifications apportées à son interface
