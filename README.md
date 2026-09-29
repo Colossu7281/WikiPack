@@ -30,7 +30,7 @@ Wikipack fonctionne avec **Tampermonkey** et **Violentmonkey**.
 
 | Gestionnaire         | Chrome                                                                                                                      | Firefox                                                                                     |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| 🐒 **Tampermonkey**  |    - | [Installer](https://addons.mozilla.org/firefox/addon/tampermonkey/?utm_source=chatgpt.com)  |
+| 🐒 **Tampermonkey**  | - | [Installer](https://addons.mozilla.org/firefox/addon/tampermonkey/?utm_source=chatgpt.com)  |
 | 🐵 **Violentmonkey** | [Installer](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?utm_source=chatgpt.com) | [Installer](https://addons.mozilla.org/firefox/addon/violentmonkey/?utm_source=chatgpt.com) |
 
 ### 2. Installer Wikipack
