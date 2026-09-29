@@ -9,7 +9,6 @@ Il gère automatiquement l'ouverture des paquets, la révélation des cartes et 
 ![Version](https://img.shields.io/badge/version-1.0.1-blue)
 ![Plateformes](https://img.shields.io/badge/platform-Chrome%20%7C%20Firefox-orange)
 ![Userscript](https://img.shields.io/badge/type-Userscript-green)
-![Licence](https://img.shields.io/badge/license-MIT-lightgrey)
 
 ---
 
@@ -22,9 +21,6 @@ Il gère automatiquement l'ouverture des paquets, la révélation des cartes et 
 
 ---
 
-## 🚀 Installation
-
-### 1. Installer un gestionnaire de userscripts
 
 Wikipack fonctionne avec **Tampermonkey** et **Violentmonkey**.
 
@@ -32,18 +28,6 @@ Wikipack fonctionne avec **Tampermonkey** et **Violentmonkey**.
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | 🐒 **Tampermonkey**  | - | [Installer](https://addons.mozilla.org/firefox/addon/tampermonkey/?utm_source=chatgpt.com)  |
 | 🐵 **Violentmonkey** | [Installer](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?utm_source=chatgpt.com) | [Installer](https://addons.mozilla.org/firefox/addon/violentmonkey/?utm_source=chatgpt.com) |
-
-### 2. Installer Wikipack
-
-1. Installez **Tampermonkey** ou **Violentmonkey**.
-2. Ouvrez le gestionnaire de userscripts.
-3. Créez un **nouveau script**.
-4. Copiez le contenu de `Wikipack.user.js`.
-5. Enregistrez le script.
-6. Rendez-vous sur [WikiMasters](https://wiki-masters.com/?utm_source=chatgpt.com).
-7. Ouvrez la page **Paquets**.
-
-🎉 **Wikipack démarre automatiquement !**
 
 ---
 
