@@ -135,7 +135,7 @@ Utilisez le script conformément aux **règles et conditions d'utilisation de Wi
 ---
 
 ## ❤️ Crédits
-
+ - Colossu
 <p align="center">
   Made with ❤️ for WikiMasters
 </p>
